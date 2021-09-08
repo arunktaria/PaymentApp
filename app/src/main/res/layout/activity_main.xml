@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16sp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:background="@drawable/googlepayimg"
+        android:layout_gravity="center_horizontal"
+        />
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="45sp"
+    android:padding="10sp"
+    android:background="@drawable/edittextbackground"
+    android:elevation="4sp"
+    android:layout_marginTop="20sp"
+    android:hint="username"
+    android:id="@+id/username"
+    />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:padding="10sp"
+        android:background="@drawable/edittextbackground"
+        android:elevation="4sp"
+        android:layout_marginTop="16sp"
+        android:hint="upi id"
+        android:id="@+id/upiId"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:padding="10sp"
+        android:background="@drawable/edittextbackground"
+        android:elevation="4sp"
+        android:inputType="number"
+        android:layout_marginTop="16sp"
+        android:hint="Amount"
+        android:id="@+id/amount"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:padding="10sp"
+        android:background="@drawable/edittextbackground"
+        android:elevation="4sp"
+        android:layout_marginTop="16sp"
+        android:hint="Payment Note"
+        android:id="@+id/paymentnote"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsubmit"
+        android:text="Send"
+
+
+        android:background="@drawable/btnbackground"
+        android:elevation="4sp"
+        android:layout_marginTop="16sp"/>
+
+</LinearLayout>
